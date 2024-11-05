@@ -1,3 +1,10 @@
+# This Makefile compile every .c files in the current and subdirectory
+# You can change the output file name by editing the TARGET variable
+
+
+# Define the target executable (name of the program)
+TARGET = main
+
 # Define the compiler and compiler flags
 CC = gcc
 CFLAGS = -Wall -Wextra -O2
@@ -9,11 +16,8 @@ BUILD_DIR = build
 
 # Find all .c files in the source directory
 SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
-# Define the object files corresponding to the source files
 OBJ_FILES = $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRC_FILES))
 
-# Define the target executable
-TARGET = main
 
 # Default target to build everything
 all: $(TARGET)
