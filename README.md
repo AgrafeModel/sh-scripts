@@ -12,3 +12,6 @@ Feel free to use them and modify them as you like. If you have any suggestions o
 ### 🔵 [3. C](#3-c)
 - [3.1. header.sh](./c/header.sh) - A script to create a header file for an associated C file.
 - [3.2. Makefile](./c/Makefile) - Not a shell script, but a Makefile to compile C files (didn't know where to put that)
+
+### ☕️ [4. Java](#4-java)
+- [4.1. Makefile](./java/Makefile) - Not a shell script, but a Makefile to compile Jave projects quickly (didn't know where to put that)
