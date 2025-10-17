@@ -5,7 +5,7 @@
 # REQUIREMENTS:
 # - Docker installed - https://docs.docker.com/engine/install/
 # - .env file with the following variables:
-#  MYSQL_URI=mysql://root:password@localhost:3306/dbname
+#  MYSQL_URI=root:password@localhost:3306/dbname
 # Replace `password` with your desired password
 # Replace `dbname` with your desired database name
 # USAGE:
